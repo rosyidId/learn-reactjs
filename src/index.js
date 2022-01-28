@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import PropsLearn from './Props/PropsLearn';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <PropsLearn/>
   </React.StrictMode>,
   document.getElementById('root')
 );

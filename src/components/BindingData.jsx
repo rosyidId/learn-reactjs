@@ -4,7 +4,7 @@ import logo from '../logo.svg';
 
 const BindingData = () => {
     const [text, setText] = useState('');
-    const [showImage, setShowImage] = useState('');
+    const [showImage, setShowImage] = useState("");
 
     return (
         <div className='App'>
