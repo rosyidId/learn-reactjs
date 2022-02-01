@@ -5,7 +5,7 @@ const Navbar = (props) => {
     return (
         
         <div>
-            <h3>{props.navHeading}</h3>
+            <h3>{!props.navHeading ? "Ini Asli":props.navHeading}</h3>
             <ul>
                 <li>
                     <a href="">Home</a>
